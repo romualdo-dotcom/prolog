@@ -1,0 +1,128 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagem-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/log1.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+body{
+    height: 100vh;
+    background-color: #223883;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tarefa {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 50px;
+    width: 90%; /* Ajuste a largura conforme necessário */
+    height: 80%;
+    margin: 0 auto; /* Adiciona margem automática para centralizar horizontalmente */
+    text-align: center; /* Centraliza o texto dentro da .tarefa */
+    opacity: 0.7;
+    border-radius: 23px;
+}
+
+.logos .logo1 {
+    size: 400px;
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Estilo para a imagem 2 */
+  .logos .logo2 {
+    width: 385px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Estilo para a imagem 3 */
+  .logos .logo3 {
+    margin-top: 10px;
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  h1 {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    border: 2px;
+    margin-bottom: 20px;
+  }
+
+h1{
+    letter-spacing: 5px;
+}
+
+/*.logos {
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 90%;
+}*/
+
+.taskContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 90%;
+    
+}
+.task{
+    background-color: rgb(95, 132, 168);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100 , 0.5);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.task h1 {
+    margin-top: 20px;
+    font-size: 4.5rem;
+
+}
+.task h2{
+    background-color: white;
+    font-size: 3rem;
+
+}
+.task p{
+    font-size: 2rem;
+}
+.task h3{
+        font-size: 1.5rem;
+}
